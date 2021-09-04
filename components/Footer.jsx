@@ -51,7 +51,7 @@ const github = (
 );
 const Footer = () => {
   return (
-    <footer className="text-gray-200 flex flex-col items-center justify-center bg-green-500 py-12">
+    <footer className="text-gray-200 flex flex-col items-center justify-center py-12">
       <div className="flex flex-row items-center justify-center mb-5">
         <a
           className="mx-1"
@@ -86,8 +86,16 @@ const Footer = () => {
           {instagram}
         </a>
       </div>
-      <h1 className="text-lg font-semibold mb-1">
-        Copyright &copy; By TvMazeShow
+      <h1 className="text-lg text-black font-semibold text-center mb-1">
+        Copyright &copy; By Its24News <br /> using{" "}
+        <a
+          href="https://newsapi.org/docs/endpoints/sources"
+          className="font-semibold hover:underline hover:text-gray-700 transition ease-in-out duration-500"
+          target="_blank"
+          rel="noreferror"
+        >
+          NewsAPI
+        </a>
       </h1>
       <h2 className="text-lg">
         Built by{" "}

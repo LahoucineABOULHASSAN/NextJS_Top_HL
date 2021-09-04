@@ -1,5 +1,5 @@
 :root {
-  --main: #ff4f66;
+  --main: #16888e;
 }
 header h1 {
   color: transparent;
@@ -27,6 +27,10 @@ header h1 {
   animation-play-state: running;
 }
 
+section .article-title,
+footer {
+  background: var(--main);
+}
 @keyframes waveAnimation {
   from {
     background-position-x: 0%;

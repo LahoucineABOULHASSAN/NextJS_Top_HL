@@ -1,9 +1,9 @@
 const Article = ({ article, id }) => {
   const { title, urlToImage } = article;
-  const URL = `/articles/${id}/${title}`;
+  const URL = `/articles/${id}`;
   return (
     <article className="h-full bg-gray-100 shadow-md transition duration-700 ease hover:bg-gray-200">
-      <a href={URL} className="flex flex-col h-full">
+      <a href={URL} target="_blank" className="flex flex-col h-full">
         <img
           className="w-full h-full"
           src={
