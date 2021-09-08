@@ -51,43 +51,9 @@ const github = (
 );
 const Footer = () => {
   return (
-    <footer className=" text-black flex flex-col bg-teal-700 items-center justify-center py-12">
-      <div className="flex flex-row items-center justify-center mb-5">
-        <a
-          className="mx-1"
-          href="https://github.com/LahoucineABOULHASSAN"
-          target="_blank"
-          rel="norferror"
-        >
-          {github}
-        </a>
-        <a
-          className="mx-1"
-          href="https://www.linkedin.com/in/lahoucineaboulhassan"
-          target="_blank"
-          rel="norferror"
-        >
-          {linkedin}
-        </a>
-        <a
-          className="mx-1"
-          href="https://twitter.com/my_tt_id"
-          target="_blank"
-          rel="norferror"
-        >
-          {twitter}
-        </a>
-        <a
-          className="mx-1"
-          href="https://www.instagram.com/my_in_id/"
-          target="_blank"
-          rel="norferror"
-        >
-          {instagram}
-        </a>
-      </div>
+    <footer className=" text-black flex flex-col bg-teal-700 items-center justify-center p-12">
       <h1 className="text-lg font-semibold text-center mb-1">
-        Copyright &copy; {new Date().getFullYear()} | By Its24News
+        Copyright &copy; {new Date().getFullYear()} | By TopHL
         <br /> From the{" "}
         <a
           href="https://newsapi.org/docs/endpoints/sources"
@@ -98,6 +64,40 @@ const Footer = () => {
           NewsAPI
         </a>
       </h1>
+      <div className="flex flex-row items-center justify-center my-4">
+        <a
+          className="mx-2"
+          href="https://github.com/LahoucineABOULHASSAN"
+          target="_blank"
+          rel="norferror"
+        >
+          {github}
+        </a>
+        <a
+          className="mx-2"
+          href="https://www.linkedin.com/in/lahoucineaboulhassan"
+          target="_blank"
+          rel="norferror"
+        >
+          {linkedin}
+        </a>
+        <a
+          className="mx-2"
+          href="https://twitter.com/my_tt_id"
+          target="_blank"
+          rel="norferror"
+        >
+          {twitter}
+        </a>
+        <a
+          className="mx-2"
+          href="https://www.instagram.com/my_in_id/"
+          target="_blank"
+          rel="norferror"
+        >
+          {instagram}
+        </a>
+      </div>
       <h2 className="text-lg">
         Built by{" "}
         <a

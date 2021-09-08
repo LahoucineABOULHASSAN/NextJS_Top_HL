@@ -2,7 +2,7 @@ const Article = ({ article, id }) => {
   const { title, urlToImage } = article;
   const URL = `/articles/${id}`;
   return (
-    <article className="h-full bg-gray-100 shadow-md transition duration-700 ease hover:bg-gray-200">
+    <div className="h-full bg-white shadow-md transition duration-700 ease hover:bg-gray-100">
       <a href={URL} target="_blank" className="flex flex-col h-full">
         <img
           className="w-full h-full"
@@ -13,7 +13,7 @@ const Article = ({ article, id }) => {
         />
         <h1 className="m-4 text-center">{title}</h1>
       </a>
-    </article>
+    </div>
   );
 };
 
