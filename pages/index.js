@@ -18,9 +18,7 @@ export default function Home({ news }) {
         <title>Its24News</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section>
-        <Articles news={news} />
-      </section>
+      <Articles news={news} />
     </div>
   );
 }
