@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Articles from "./Articles";
+import Articles from "./articles/Articles";
 const URL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.NEXT_PUBLIC_MARVEL_PUBLIC_API_KEY}`;
 
 export const getStaticProps = async () => {

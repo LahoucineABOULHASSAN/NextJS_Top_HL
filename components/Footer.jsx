@@ -51,7 +51,7 @@ const github = (
 );
 const Footer = () => {
   return (
-    <footer className="text-gray-200 flex flex-col items-center justify-center py-12">
+    <footer className="text-gray-200 flex flex-col bg-teal-700 items-center justify-center py-12">
       <div className="flex flex-row items-center justify-center mb-5">
         <a
           className="mx-1"

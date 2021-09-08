@@ -27,8 +27,7 @@ header h1 {
   animation-play-state: running;
 }
 
-section .article-title,
-footer {
+section .article-title {
   background: var(--main);
 }
 @keyframes waveAnimation {
