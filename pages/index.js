@@ -15,7 +15,7 @@ export default function Home({ news }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <Head>
-        <title>Its24News</title>
+        <title>TopHL | Homepage</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Articles news={news} />

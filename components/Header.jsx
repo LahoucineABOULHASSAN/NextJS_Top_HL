@@ -4,9 +4,6 @@ const Header = () => {
       <h1 className="w-full text-5xl text-center font-extrabold uppercase mb-10">
         Welcome to TopHL
       </h1>
-      <h2 className="text-xl font-semibold capitalize py-4 border-b-2 border-t-2 border-gray-400 mb-4">
-        The live top HeadLines in the US right now
-      </h2>
     </header>
   );
 };
