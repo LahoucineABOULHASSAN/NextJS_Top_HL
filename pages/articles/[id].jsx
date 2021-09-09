@@ -38,9 +38,9 @@ const Serie = ({ article }) => {
       <Head>
         <title>TopHL | {article.title}</title>
       </Head>
-      <section className="w-11/12 mx-auto mb-10">
-        <div className="article-title mb-8">
-          <h2 className="text-2xl text-coral-700 font-semibold capitalize border-b-2 border-t-2 border-gray-400 py-4 mb-3">
+      <section className="flex flex-col items-center justify-center w-11/12 mx-auto mb-10">
+        <div className="article-title mb-8 w-full">
+          <h2 className="text-2xl text-coral-700 text-center font-semibold capitalize border-b-2 border-t-2 border-gray-400 py-4 mb-3">
             {article.title}
           </h2>
           <h2 className="text-md font-bold">
@@ -55,13 +55,13 @@ const Serie = ({ article }) => {
           </h3>
         </div>
         <img
-          className="mb-6"
+          className="mb-6 w-full"
           src={
             article.urlToImage ||
             "https://via.placeholder.com/900?text=Image+Not+Found"
           }
         />
-        <p className="text-gray-600 mb-6 leading-8">
+        <p className="text-gray-600 w-full mb-6 leading-8">
           {article.description || article.content}
         </p>
         <a
